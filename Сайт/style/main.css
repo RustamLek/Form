@@ -1,0 +1,184 @@
+html {
+  overflow-y: hidden;
+}
+
+.main {
+  display: flex;
+}
+.form {
+  padding-top: 48px;
+  height: 100vh;
+  width: 456px;
+  flex-shrink: 0;
+}
+.left {
+  width: 100%;
+  height: 100vh;
+  background: url(../src/images/boat--hd.webp);
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 360px;
+  width: 100%;
+  margin: 0px auto;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  column-gap: 9.61px;
+}
+h1 {
+  font-family: "Poppins";
+  color: black;
+  font-style: 20px;
+  font-weight: 600;
+  margin-top: 40.75px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.login {
+  color: rgb(51, 51, 51);
+  font-size: 11px;
+  font-family: sans-serif;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+#email {
+  font-family: "Roboto";
+  font-size: 15px;
+  color: rgb(128, 128, 128);
+  height: 48px;
+  padding: 8px 8px 8px 16px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 6px;
+}
+.password {
+  color: rgb(51, 51, 51);
+  font-size: 11px;
+  font-family: sans-serif;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+#password {
+  font-family: "Roboto";
+  font-size: 15px;
+  color: rgb(128, 128, 128);
+  height: 48px;
+  padding: 8px 8px 8px 16px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 6px;
+}
+.checkbox1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 22px;
+}
+.remember {
+  display: block;
+  position: relative;
+  width: 40px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #e5e5e5;
+  transition: 0.3s;
+}
+.remember::before {
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+  top: 2px;
+  left: 2px;
+}
+
+.checkbox:checked + .remember {
+  background-color: #007aff;
+}
+.checkbox:checked + .remember::before{
+  transform: translate(20px);
+}
+
+.checkbox3,
+a {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+}
+.sign {
+  font-family: "Poppins";
+  color: white;
+  font-size: 15px;
+  font-weight: 700px;
+  height: 48px;
+  border: 1px solid #007aff;
+  border-radius: 6px;
+  background-color: #007aff;
+  margin-top: 32px;
+}
+.sign--g {
+  height: 48px;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  background-color: #333333;
+  margin-top: 64.5px;
+}
+.sign--img--g {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  color: white;
+  column-gap: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reg {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 8px;
+  margin-top: 24px;
+}
+.a {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+}
+.footer {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+.link {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+}
+.perfect {
+  color: rgb(128, 128, 128);
+}
